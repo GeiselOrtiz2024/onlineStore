@@ -7,15 +7,63 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
+    <!--Navbar-->
+    <nav class="bg-gray-700 py-3 px-3 relative w-full ">
+        <div class="container mx-auto flex">
+            <!--Logo-->
+            <div class=" sm:w-screen  flex flex-grow">
+              <img src="../imagenes/glamourshine.jpg" width="100" height="100">
+            </div>
+            <!--opciones-->
+            <div class=" sm:w-screen h-full flex flex-grow justify-between py-6 sm:px-6">
+                <div>
+                   <a href="#" class="text-white lg:mr-7 ">Damas</a>
+                   <a href="#" class="text-white lg:mr-7 ">Caballeros</a>
+                   <a href="#" class="text-white lg:mr-7 ">Niños</a>
+                </div>
+                <div class="sm:h-full sm:justify-between">
+                   <a href="login.html" class="text-white border border-white sm:py-2 sm:px-2 rounded-md hover:bg-white
+                   hover:text-gray-800 transition duration-400 ease-in-out lg:mr-4 ">Iniciar sesión</a>
+                   
+                   <a href="Registrate.html" class="text-white bg-blue-500 border border-blue-500 py-2 px-2 rounded-md hover:bg-blue-600 hover:border-blue-600 transition duration-400 ease-in-out lg:mr-4">Registrate</a>
+                </div>
+                </div>
+               
+               </div>
+           </div>
+       </nav>
 
 <div class="container mx-auto mt-4">
     <h1 class="text-3xl font-bold mb-4">Tienda en Línea</h1>
+    <br><br>
 
     <!-- Lista de Productos -->
     <div class="grid grid-cols-3 gap-4">
         <div class="p-4 border">
-            <h2 class="text-xl font-semibold">Producto 1</h2>
+            <img src="../imagenes/zapatos.jpg" alt=""  width="250" height="250">
+            <h2 class="text-xl font-semibold">Sandalias con brillantes</h2>
             <p>Descripción del Producto 1</p>
+            <p>Precio: $10.00</p>
+            <button class="bg-blue-500 text-white px-4 py-2 mt-2">Agregar al Carrito</button>
+        </div>
+        <div class="p-4 border">
+            <img src="../imagenes/falda2.jpg" alt=""  width="250" height="250">
+            <h2 class="text-xl font-semibold">Falda Casual</h2>
+            <p>Descripción</p>
+            <p>Precio: $10.00</p>
+            <button class="bg-blue-500 text-white px-4 py-2 mt-2">Agregar al Carrito</button>
+        </div>
+        <div class="p-4 border">
+            <img src="../imagenes/sueter.jpg" alt=""  width="250" height="250">
+            <h2 class="text-xl font-semibold">Sueter</h2>
+            <p>Descripción</p>
+            <p>Precio: $10.00</p>
+            <button class="bg-blue-500 text-white px-4 py-2 mt-2">Agregar al Carrito</button>
+        </div>
+        <div class="p-4 border">
+            <img src="../imagenes/zapatos.jpg" alt=""  width="250" height="250">
+            <h2 class="text-xl font-semibold"></h2>
+            <p>Descripción</p>
             <p>Precio: $10.00</p>
             <button class="bg-blue-500 text-white px-4 py-2 mt-2">Agregar al Carrito</button>
         </div>

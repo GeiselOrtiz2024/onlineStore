@@ -1,0 +1,108 @@
+body{
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    height: 100vh;
+    overflow: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 500px;
+    padding: 15px;
+    background: white;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    left: 20px; 
+    max-height: calc(100% - 40px);
+    
+}
+.Titulo{
+    text-align: center;
+     padding: 15px;
+    color:black;
+}
+
+.Mayor{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: rgb(30, 29, 29);
+}
+.Nombre, .E-mail, .User, .Password{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 1px 0;
+
+}
+input{
+    padding: 3px;
+}
+input:focus{
+    outline: solid rgb(90, 89, 89);
+}
+.Cuenta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #1c1c1c;
+}
+.Cuenta a{
+    color: #2691d9;
+    text-decoration: none;
+}
+.Cuenta a:hover{
+     text-decoration: underline;
+}
+input[type="submit"]{
+    width: 75%;
+    height: 35px;
+    border: 1px solid;
+    background: #2691d9;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+input[type="submit"]{
+    border-color: #2691d9;
+    transition: .5s;
+    
+}
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+.principal{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #1c1c1c;
+}
+.principal a{
+    color: #2691d9;
+    text-decoration: none;
+}
+.principal a:hover{
+    text-decoration: underline;
+}
